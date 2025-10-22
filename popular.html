@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Popular | TMDB</title>
+</head>
+<body>
+    
+    <h1>The Movie Database</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Now Playing</a></li>
+            <li><a href="popular.html" class="active">Popular</a></li>
+            <li><a href="top_rated.html">Top Rated</a></li>
+            <li><a href="upcoming.html">Upcoming</a></li>
+        </ul>
+    </nav>
+    
+    
+    <section id="movie-list">
+        <!-- movies get inserted into here -->
+        <template id="movie-card">
+            <article class="movie-card">
+                <h3></h3>
+                <div class="movie">
+                    <img src="" alt="">
+                    <div>      
+                        <p class="movie-overview"></p>
+                        <div>
+                            <p class="title">Original title: <span class="movie-title"></span></p>
+                            <p class="release">Release date: <span class="movie-release"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </template>
+    </section>
+    
+    <script src="js/popular.js" type="module"></script>
+</body>
+</html>

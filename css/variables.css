@@ -1,0 +1,12 @@
+:root{
+    --backgroundColor: #f1f1f1;
+    --textColor: #f1f1f1;
+    --headerColor: #f1f1f1;
+    --headerBgColor: #00b4d8;
+    --navColor: #0077b6;
+    --cardColor: #03045e;
+
+    --mainFont: "Roboto Flex", sans-serif;
+
+    --maxWidth: 1024px;
+}
